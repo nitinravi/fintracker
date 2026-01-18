@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Finance Tracker",
+    "slug": "fintracker",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fintracker.app"
+    },
+    "android": {
+      "package": "com.fintracker.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "scheme": "fintracker"
+  }
+}
